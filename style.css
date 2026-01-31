@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f4f6f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+.balance {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.summary {
+    display: flex;
+    justify-content: space-between;
+}
+
+.income, .expense {
+    width: 45%;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.income {
+    background: #d4f8d4;
+}
+
+.expense {
+    background: #f8d4d4;
+}
+
+form {
+    margin: 20px 0;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #43a047;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #eee;
+    margin: 5px 0;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    border-right: 5px solid;
+}
+
+li.plus {
+    border-color: green;
+}
+
+li.minus {
+    border-color: red;
+}
